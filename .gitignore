@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+
+# Node
+node_modules/
+client/node_modules/
+server/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Builds and caches
+client/build/
+dist/
+.next/
+.cache/
+coverage/
+
+# Env / secrets
+.env
+*.env
+server/config.env
+
+# Local files
+server/uploads/server/config.env
+client/build/
+crime/
+.DS_Store
+node_modules/
